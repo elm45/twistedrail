@@ -49,15 +49,15 @@ $legacy-support-for-ie8: true;
 // use in the normalize.scss file.
 // @see http://compass-style.org/reference/compass/typography/vertical_rhythm/
 
-$base-font-size:   16px; // The font size set on the root html element.
-$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+$base-font-size:   18px; // The font size set on the root html element.
+$base-line-height: 30px; // This line-height determines the basic unit of vertical rhythm.
 
-$h1-font-size: 2    * $base-font-size;
-$h2-font-size: 1.5  * $base-font-size;
-$h3-font-size: 1.17 * $base-font-size;
-$h4-font-size: 1    * $base-font-size;
-$h5-font-size: 0.83 * $base-font-size;
-$h6-font-size: 0.67 * $base-font-size;
+$h1-font-size: 2.5    	* $base-font-size;
+$h2-font-size: 2	  	* $base-font-size;
+$h3-font-size: 1.5 		* $base-font-size;
+$h4-font-size: 1.12    	* $base-font-size;
+$h5-font-size: 0.83 	* $base-font-size;
+$h6-font-size: 0.67 	* $base-font-size;
 
 // The following font family declarations are based on the Microsoft core web
 // fonts which are common fonts available on most computer systems. The DejaVu
@@ -70,24 +70,23 @@ $h6-font-size: 0.67 * $base-font-size;
 // monospace) hints at what type of font to use if the web browser doesn't
 // find any of the fonts in the list.
 
-// First, let's create some font stacks.
-$times-new-roman: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
-$times:           Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
-$georgia:         Georgia, "Times New Roman", "DejaVu Serif", serif;
+// Google fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Merriweather:400,700,400italic);
 
-$verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
-$tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
-$helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
-$arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 
-// For an explanation of why "sans-serif" is at the end of this list, see
-// http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
-$courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+// Font Stacks
+$openSans: 		  	'Open Sans', sans-serif;
+$merriweather:     	'Merriweather', serif;
+$courier:			'Courier', monospace, serif;
 
-// Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
-$font-monospace:   $courier;
+// Font Variables
+$base-font-family: 		$openSans; // The font family set on the html element.
+$font-body:        	$openSans;
+$font-head:   		$merriweather;
+
+// Req'd by Zen
+$font-monospace:	$courier;
+
 
 
 //
@@ -96,8 +95,10 @@ $font-monospace:   $courier;
 $blue: #5c868e; // link color
 $accentA: #95a69d;
 $accentB: #E3B722;
+$baseColor: #421618;
 $black: #000000;
-$white: #ffffff;  
+$white: #ffffff;
+
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
