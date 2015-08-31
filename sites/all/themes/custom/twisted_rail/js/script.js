@@ -14,7 +14,7 @@
 
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
-Drupal.behaviors.my_custom_behavior = {
+Drupal.behaviors.twistedRail = {
   attach: function(context, settings) {
 
     // Place your code here.
@@ -47,6 +47,13 @@ Drupal.behaviors.my_custom_behavior = {
       }
     });
   };
+
+
+  // Set main top margin to same height has the header
+
+  var headerHeight = $('#header').height();
+
+  $('#main').css('margin-top', headerHeight+'px');
 
 
 
