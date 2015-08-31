@@ -1,0 +1,84 @@
+// Global Styles for Twisted Rail
+
+
+body {
+	background: $bgDefault;
+}
+a {
+	color: $blue;
+	text-decoration: none;
+}
+
+
+
+//  HEADER Styles
+
+.header {
+	position: fixed;
+	z-index: 999;
+	height: 95px;
+	width: 100%;
+	overflow: hidden;
+	background: $bgDefault;
+	opacity: .98;
+}
+#content {
+	margin-top: 95px;
+}
+#navigation {
+	float:left;
+}
+#navigation ul:before {
+	content: "Go to: ";
+	float: left;
+	font-weight: bold;
+	color: $accentA;
+}
+#navigation ul {
+	height: 95px;
+	line-height: 95px;
+}
+#navigation li {
+	margin: 0 10px;
+	&:after {
+		content: "/";
+		padding-left: 20px;
+		color: $accentA;
+	}
+	&:last-child {
+		&:after {
+			content: "";
+			padding-left: 0;
+		}
+	}
+}
+
+#navigation li.first {
+	margin: 0 10px 0 30px;
+}
+#navigation li a {
+	color: $black;
+}
+#navigation li a:hover {
+	border-bottom: 4px solid $accentB;
+}
+
+.header__logo-image {
+	padding: 10px 0;
+}
+.logo-fade {
+	text-align: center;
+}
+
+.region.region-highlighted {
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    width: calc(100vw - 2rem);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: $accentA;
+}
