@@ -71,16 +71,27 @@ a {
 	text-align: center;
 }
 
-.region.region-highlighted {
+.region-highlighted {
     left: 50%;
     position: relative;
     transform: translate(-50%);
-    width: calc(100vw - 2rem);
+    width: calc(100vw - 4rem);
+}
+.logo-fade img {
+    padding: 30px 0 5px 0;
+    opacity: .8;
 }
 
+.front .region-highlighted {
+	background: $bgMetal;
+}
 
+.sidebars {
+	font-size: 80%;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	color: $accentA;
 	font-family: $font-head;
+	font-weight: normal;
 }

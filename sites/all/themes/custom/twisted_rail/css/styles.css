@@ -1681,14 +1681,14 @@ tr.selected td {
 
 /* line 4, ../sass/_global.scss */
 body {
-  background: url("../images/cream_dust.png") 0 0 repeat white;
+  background: url("../images/cream_dust.png") 0 0 repeat transparent;
   font: "Open Sans", sans-serif;
   color: #421618;
 }
 
 /* line 9, ../sass/_global.scss */
 a {
-  color: #5c868e;
+  color: #437cad;
   text-decoration: none;
 }
 
@@ -1700,7 +1700,7 @@ a {
   height: 95px;
   width: 100%;
   overflow: hidden;
-  background: url("../images/cream_dust.png") 0 0 repeat white;
+  background: url("../images/cream_dust.png") 0 0 repeat transparent;
   opacity: .98;
 }
 
@@ -1765,17 +1765,34 @@ a {
 }
 
 /* line 74, ../sass/_global.scss */
-.region.region-highlighted {
+.region-highlighted {
   left: 50%;
   position: relative;
   transform: translate(-50%);
-  width: calc(100vw - 2rem);
+  width: calc(100vw - 4rem);
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 80, ../sass/_global.scss */
+.logo-fade img {
+  padding: 30px 0 5px 0;
+  opacity: .8;
+}
+
+/* line 85, ../sass/_global.scss */
+.front .region-highlighted {
+  background: url("../images/front-highlight-bg.jpg") 0 0 repeat transparent;
+}
+
+/* line 89, ../sass/_global.scss */
+.sidebars {
+  font-size: 80%;
+}
+
+/* line 93, ../sass/_global.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #95a69d;
   font-family: "Merriweather", serif;
+  font-weight: normal;
 }
 
 /**

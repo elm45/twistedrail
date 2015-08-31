@@ -92,7 +92,7 @@ $font-monospace:	$courier;
 //
 // Colors, etc.
 //
-$blue: #5c868e; // link color
+$blue: #437cad; // link color
 $accentA: #95a69d;
 $accentB: #E3B722;
 $baseColor: #421618;
@@ -110,7 +110,8 @@ $nav-height: 3em;
 $tabs-container-bg: #fff;
 $tabs-border: #bbb;
 
-$bgDefault: url("../images/cream_dust.png") 0 0 repeat #fff;
+$bgDefault: url("../images/cream_dust.png") 0 0 repeat transparent;
+$bgMetal: url("../images/front-highlight-bg.jpg") 0 0 repeat transparent;
 
 
 // =============================================================================
