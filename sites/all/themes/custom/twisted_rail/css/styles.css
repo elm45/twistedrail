@@ -1682,17 +1682,18 @@ tr.selected td {
 /* line 4, ../sass/_global.scss */
 body {
   background: url("../images/cream_dust.png") 0 0 repeat transparent;
+  background-attachment: fixed;
   font: "Open Sans", sans-serif;
   color: #421618;
 }
 
-/* line 9, ../sass/_global.scss */
+/* line 10, ../sass/_global.scss */
 a {
   color: #437cad;
   text-decoration: none;
 }
 
-/* line 18, ../sass/_global.scss */
+/* line 19, ../sass/_global.scss */
 .header {
   position: fixed;
   top: 0;
@@ -1701,7 +1702,6 @@ a {
   width: 100%;
   overflow: hidden;
   background: url("../images/cream_dust.png") 0 0 repeat transparent;
-  opacity: .98;
 }
 
 /* line 29, ../sass/_global.scss */

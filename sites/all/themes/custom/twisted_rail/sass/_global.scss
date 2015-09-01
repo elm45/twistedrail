@@ -3,6 +3,7 @@
 
 body {
 	background: $bgDefault;
+	background-attachment: fixed;
 	font: $font-body;
 	color: $baseColor;
 }
@@ -23,7 +24,6 @@ a {
 	width: 100%;
 	overflow: hidden;
 	background: $bgDefault;
-	opacity: .98;
 }
 
 #navigation {
