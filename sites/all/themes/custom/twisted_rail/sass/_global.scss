@@ -128,9 +128,34 @@ a {
 	background: $bgMetal;
 }
 
-.sidebars {
+.sidebars, .bean-location-and-hours {
 	font-size: 80%;
 }
+
+.slick-track img {
+    padding: 10px;
+    border: 1px solid $accentA;
+}
+
+a.social {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-indent: 99999px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+a.social.soc_twitter {
+	background-image: url("../images/social/twitter.svg");
+}
+a.social.soc_fb {
+	background-image: url("../images/social/fb.svg");
+}
+a.social.soc_google {
+	background-image: url("../images/social/googleplus.svg");
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	color: $accentA;

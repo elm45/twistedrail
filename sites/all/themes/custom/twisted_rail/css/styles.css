@@ -1829,11 +1829,42 @@ a {
 }
 
 /* line 131, ../sass/_global.scss */
-.sidebars {
+.sidebars, .bean-location-and-hours {
   font-size: 80%;
 }
 
 /* line 135, ../sass/_global.scss */
+.slick-track img {
+  padding: 10px;
+  border: 1px solid #95a69d;
+}
+
+/* line 140, ../sass/_global.scss */
+a.social {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-indent: 99999px;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+/* line 149, ../sass/_global.scss */
+a.social.soc_twitter {
+  background-image: url("../images/social/twitter.svg");
+}
+
+/* line 152, ../sass/_global.scss */
+a.social.soc_fb {
+  background-image: url("../images/social/fb.svg");
+}
+
+/* line 155, ../sass/_global.scss */
+a.social.soc_google {
+  background-image: url("../images/social/googleplus.svg");
+}
+
+/* line 160, ../sass/_global.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #95a69d;
   font-family: "Merriweather", serif;
