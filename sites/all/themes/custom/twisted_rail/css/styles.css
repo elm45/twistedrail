@@ -1769,26 +1769,71 @@ a {
   left: 50%;
   position: relative;
   transform: translate(-50%);
-  width: calc(100vw - 4rem);
+  width: 100vw;
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 81, ../sass/_global.scss */
+.views-row-nid-31 {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%);
+  width: 100vw;
+  background-color: #421618;
+  padding: 120px 0;
+  background: url("../images/bg_six_beers.jpg") no-repeat transparent;
+  background-attachment: fixed;
+  background-position: 25% center !important;
+}
+
+/* line 93, ../sass/_global.scss */
+.views-row-nid-31 .views-field-rendered-entity {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/* line 100, ../sass/_global.scss */
+.views-row-nid-31 h2, .views-row-nid-31 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.25em;
+}
+
+/* line 106, ../sass/_global.scss */
+.views-row-nid-31 h2 {
+  font-size: 3.5em;
+  color: #e3b722;
+  font-weight: 700;
+  font-variant: small-caps;
+  text-shadow: 0px 1px 3px #000;
+}
+
+/* line 114, ../sass/_global.scss */
+.views-row-nid-31 h3 {
+  font-size: 1.9em;
+  color: white;
+  font-weight: 700;
+  font-variant: small-caps;
+  text-shadow: 0px 1px 3px #333;
+}
+
+/* line 122, ../sass/_global.scss */
 .logo-fade img {
   padding: 30px 0 5px 0;
   opacity: .8;
 }
 
-/* line 85, ../sass/_global.scss */
+/* line 127, ../sass/_global.scss */
 .front .region-highlighted {
   background: url("../images/front-highlight-bg.jpg") 0 0 repeat transparent;
 }
 
-/* line 89, ../sass/_global.scss */
+/* line 131, ../sass/_global.scss */
 .sidebars {
   font-size: 80%;
 }
 
-/* line 93, ../sass/_global.scss */
+/* line 135, ../sass/_global.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #95a69d;
   font-family: "Merriweather", serif;
