@@ -1,0 +1,10 @@
+.more-link {
+	text-align: center;
+}
+
+.more-link a {
+	font-size: .65 * $base-font-size;
+	text-transform: uppercase;
+	color: $gray;
+	font-weight: 700;
+}

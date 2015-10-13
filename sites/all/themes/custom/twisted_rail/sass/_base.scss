@@ -1,0 +1,36 @@
+/*// Base styles
+
+$base-font-size:   18px; // The font size set on the root html element.
+$base-line-height: 30px; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size: 2.5    	* $base-font-size;
+$h2-font-size: 2	  	* $base-font-size;
+$h3-font-size: 1.5 		* $base-font-size;
+$h4-font-size: 1.12    	* $base-font-size;
+$h5-font-size: 0.83 	* $base-font-size;
+$h6-font-size: 0.67 	* $base-font-size;
+
+
+// Google fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Merriweather:400,700,400italic);
+
+// Font Stacks
+$openSans: 		  	'Open Sans', sans-serif;
+$merriweather:     	'Merriweather', serif;
+$courier:			'Courier', monospace, serif;
+
+// Font Variables
+$base-font-family: 		$openSans; // The font family set on the html element.
+$font-body:        	$openSans;
+$font-head:   		$merriweather;
+*/
+//
+// Colors, etc.
+//
+
+$blue: #437cad; // link color
+$accentA: #95a69d;
+$accentB: #E3B722;
+$baseColor: #421618;
+$black: #000000;
+$white: #ffffff;

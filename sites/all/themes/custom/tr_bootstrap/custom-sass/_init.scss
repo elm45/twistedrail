@@ -1,0 +1,95 @@
+// ======================
+// Initialization partial
+// ======================
+
+//
+// Font sizes and spacing
+//
+
+$base-font-size:   18px; // The font size set on the root html element.
+$base-line-height: 30px; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size: 2.5    	* $base-font-size;
+$h2-font-size: 2	  	* $base-font-size;
+$h3-font-size: 1.5 		* $base-font-size;
+$h4-font-size: 1.12    	* $base-font-size;
+$h5-font-size: 0.83 	* $base-font-size;
+$h6-font-size: 0.67 	* $base-font-size;
+
+//
+// Google fonts
+//
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Merriweather:400,700,400italic);
+
+//
+// Font Stacks
+//
+
+$openSans: 		  	'Open Sans', sans-serif;
+$merriweather:     	'Merriweather', serif;
+
+//
+// Font Variables
+//
+$base-font-family: 	$openSans; // The font family set on the html element.
+$font-body:        	$openSans;
+$font-head:   		$merriweather;
+
+//
+// Colors, backgrounds etc.
+//
+
+$blue: #437cad; 						// link color
+$accentA: #a54924; 						// rust
+$accentB: #E3B722; 						// yellow
+$accentD: #32478E; 						// royal blue
+$accentE: #95a69d; 						// blue gray
+$baseColor: #421618;					// dark brown
+$baseColorTransHalf: rgba(66, 22, 24, .5);	//dark brown 50% opacity
+$baseColorTransQuarter: rgba(66, 22, 24, .25);	//dark brown 50% opacity
+$black: #222222;
+$white: #ffffff;
+
+$bgDefault: url("../images/cream_dust.png") 0 0 repeat transparent;
+$bgParchment: url("../images/yellow_rice.png") 0 0 repeat transparent;
+$bgBlueRibbon: url("../images/blue_ribbon.svg") transparent;
+$bgbadgeRibbonRust: url("../images/badge_ribbon_rust.svg") 0 0 no-repeat transparent;
+$bgWood: url("../images/bg_wood.jpg") 0 0 repeat transparent;
+
+//
+// Bootstrap default color overrides
+//
+
+$gray-darker:            darken(#95a69d, 13.5%) !default;
+$gray-dark:              darken(#95a69d, 20%) !default;
+$gray:                   darken(#95a69d, 13.5%) !default;
+$gray-light:             #95a69d !default;
+$gray-lighter:           lighten(#95a69d, 13.5%) !default;
+
+$brand-primary:         $accentD !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         $accentB !default;
+$brand-danger:          $accentA !default;
+
+.jumbotron {
+	background: #32478e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #32478e 20%, #24336b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#32478e), color-stop(100%,#24336b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #32478e 20%,#24336b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #32478e 20%,#24336b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #32478e 20%,#24336b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #32478e 20%,#24336b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32478e', endColorstr='#24336b',GradientType=0 ); /* IE6-9 */
+	color: $white;
+	h1 {
+		color:$white;
+	}
+	.title-block h1 {
+		padding: 100px 0 0 0;
+		margin: 0;
+	}
+}
+
+

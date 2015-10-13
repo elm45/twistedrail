@@ -1,0 +1,6 @@
+.view-gallery {
+	img {
+		@extend .img-responsive;
+		margin: 15px 0;
+	}
+}

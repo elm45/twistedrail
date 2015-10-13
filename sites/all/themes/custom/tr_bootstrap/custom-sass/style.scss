@@ -1,0 +1,31 @@
+@import "../bootstrap-sass/bootstrap.scss";
+@import "compass";
+
+
+// Custom styles
+@import "init";
+@import "global";
+@import "layout_overrides";
+
+// Component Styles
+@import "nav_header";
+@import "coaster_block";
+@import "front_page_hero";
+@import "front_page_blocks";
+@import "slick_carousel";
+@import "gallery";
+@import "events";
+@import "locations";
+@import "front_announcements_block";
+@import "footer";
+@import "jumbotron_overrides";
+@import "more_link";
+
+
+// THE FOLLOWING STYLES NEED A PERMANENT HOME
+
+.front .main-container h1 {
+	display: none;
+}
+
+

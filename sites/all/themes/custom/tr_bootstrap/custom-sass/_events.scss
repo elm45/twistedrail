@@ -1,0 +1,40 @@
+.event-row {
+	min-height: 74px;
+}
+
+.cal_icon {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #95a69d;
+    margin-right: 10px;
+    width: 50px;
+    border-radius: 3px;
+    background: $white;
+}
+.cal_icon_month {
+	background-color: $accentD;
+	color: $white;
+	padding: 2px;
+}
+.cal_icon_day {
+	padding: 4px 0 6px;
+	font-size: $base-font-size;
+}
+
+.event-details {
+	margin-left: 61px;
+}
+
+.event-title, .event-time, .event-location {
+    font-size: 		.8 * $base-font-size;
+    line-height: 	.6 * $base-line-height;
+    margin: 0;
+    padding: 0;
+}
+
+
+.event-title, .event-time-label, .event-location-label  {
+    font-weight: 700;
+}
