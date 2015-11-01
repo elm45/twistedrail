@@ -1,0 +1,36 @@
+.front {
+
+  .region-header {
+    background-color: $baseColor;
+    padding: 120px 0;
+    background: url("../images/bg_six_beers.jpg") no-repeat transparent;
+    background-attachment: fixed;
+    background-position: center center !important;
+    @media (max-width:767px) {
+      padding: 76px 0 50px;
+    }
+  }
+
+  .region-header section {
+    @extend .container;
+    background: $overlay;
+    padding-bottom: 30px;
+  }
+
+  .front-hero h1 {
+    color: $accentB;
+    font-size: 2.75 * $base-font-size;
+    @media (max-width:767px) {
+      font-size: 2 * $base-font-size;
+    }
+  }
+
+  .front-hero h2 {
+    color: $white;
+    @media (max-width:767px) {
+      font-size: 1.25 * $base-font-size;
+    }
+  }
+
+
+} //end .front

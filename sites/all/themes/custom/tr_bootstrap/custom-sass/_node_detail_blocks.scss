@@ -1,0 +1,13 @@
+.location_section, 
+.hours_section,
+.date_section {
+  padding: 20px;
+  .field-label, .field-items {
+    margin-bottom: 1em;
+  }
+}
+
+.location_details,
+.event_details {
+  margin-bottom: 20px;
+}

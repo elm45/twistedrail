@@ -1,0 +1,27 @@
+.front {
+
+  .jumbotron {
+    @extend .coaster-block-subtle;
+    padding: 30px;
+    line-height: .5 * $base-line-height;
+    color: $baseColor;
+  }
+
+  .jumbotron .announcements-block {
+    h2.block-title {
+      font-size: 1.15 * $base-font-size;
+    }
+    .view-content {
+      font-size: .8 * $base-font-size;
+      line-height: .6 * $base-line-height;
+      .announcement-title a {
+        font-size: .9 * $base-font-size;
+        font-weight: bold;
+      }
+      div {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+} //end .front

@@ -1,0 +1,82 @@
+// Global Styles
+html {
+  font-family: $base-font-family;
+}
+
+body {
+  background: $bgDefault;
+  background-attachment: fixed;
+  font-family: $font-body;
+  color: $baseColor;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $baseColor;
+  font-family: $font-head;
+  font-weight: normal;
+}
+
+.front .main-container h1 {
+  display: none;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.pane-title, 
+.block-title {
+  margin-top: 5rem;
+} 
+
+.block-title .glyphicon {
+  margin-right: 10px;
+} 
+
+a.social {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-indent: 99999px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+a.social.soc_twitter {
+  background-image: url("../images/social/twitter.svg");
+}
+a.social.soc_fb {
+  background-image: url("../images/social/fb.svg");
+}
+a.social.soc_google {
+  background-image: url("../images/social/googleplus.svg");
+}
+
+
+.blueribbon {
+  background: $bgBlueRibbon;
+  color: $white;
+  text-align: center;
+  background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:86px;
+    line-height: 200%;
+    overflow: visible;
+}
+
+
+/* DELETE WHEN DONE - for reference only
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}*/
+
+
+

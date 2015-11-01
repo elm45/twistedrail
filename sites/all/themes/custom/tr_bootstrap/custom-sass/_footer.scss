@@ -1,0 +1,27 @@
+.footer {
+  background: $bgWood;
+  color: $white;
+  text-align: center;
+  font-family: $merriweather;
+}
+
+.footer a {
+  color: $white;
+}
+
+.footer .location-row {
+    @media (min-width:767px) {
+    display: inline;
+    &:after {
+      content: " | ";
+      margin: 0 10px;
+    }
+    &:last-child {
+      &:after {
+        content: "";
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}

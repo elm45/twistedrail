@@ -1,0 +1,26 @@
+.gallery_slider_block {
+  display: none;
+  @media (min-width:767px) {
+    display: block;
+  }
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: $baseColor;
+  font-size: 1.75 * $base-font-size;
+}
+
+.slide {
+   margin: 4px;
+}
+
+.slick-track img {
+  padding: 10px;
+  border: 1px solid $baseColorTransHalf;
+  background-color: $white;
+  border-radius: 3px;
+}
