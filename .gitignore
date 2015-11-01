@@ -2,5 +2,5 @@
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
-sites/*/files
+#sites/*/files <—commenting out for initial commit pre-launch - should add back once in production.
 sites/*/private
