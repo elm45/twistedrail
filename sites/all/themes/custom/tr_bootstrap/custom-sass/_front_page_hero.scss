@@ -13,7 +13,7 @@
 
   .region-header section {
     @extend .container;
-    background: rgba(0, 0, 0, .6);
+    background: $overlay;
     padding-bottom: 30px;
   }
 

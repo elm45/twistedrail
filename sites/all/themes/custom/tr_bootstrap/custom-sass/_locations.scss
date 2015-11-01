@@ -1,27 +1,50 @@
 .oh-current-open {
-	background: $bgbadgeRibbonRust;
-	color: $white;
-	display: inline-block;
+  color: $white;
+  display: inline-block;
     background-size: 100%;
-    padding: 0 2em 2em 1em;
     position: absolute;
-    left: -1.8em;
     font-size: .6 * $base-font-size;
     line-height: 2.25em;
+    background: $bgbadgeRibbonRustRight;
+    right: .35em;
+    top: 2em;
+    padding: 0 1em 2em 2em;
 }
 
 .oh-current-open:after {
-	content: " NOW!"
+  content: " NOW!"
+}
+
+.front .oh-current-open {
+  right: -1.2em;
 }
 
 .location-city-state {
-	font-weight: 700;
+  font-weight: 700;
 }
 
-/*$blue: #437cad; 		// link color
-$accentA: #a54924; 		// rust
-$accentB: #E3B722; 		// yellow
-$accentC: #a54924; 		// rust
-$accentD: #32478E; 		// royal blue
-$accentE: #95a69d; 		// blue gray
-$baseColor: #421618;	// dark brown*/
+.jumbotron.location_title {
+  position: relative;
+  min-height: 14em;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  // note that the background image is loading in the template from the content type
+  @media (min-width:767px) {
+    min-height: 20em;
+  }
+}
+
+.jumbotron.location_title h2 {
+    background: $overlay;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    margin-bottom: 40px;
+    padding: 0.5em 1.5em;
+    position: absolute;
+    @media (min-width:767px) {
+      font-size: $base-font-size * 2.25;
+  }
+}

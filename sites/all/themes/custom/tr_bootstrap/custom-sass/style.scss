@@ -1,7 +1,6 @@
 @import "../bootstrap-sass/bootstrap.scss";
 @import "compass";
 
-
 // Custom styles
 @import "init";
 @import "global";
@@ -20,12 +19,4 @@
 @import "footer";
 @import "jumbotron_overrides";
 @import "more_link";
-
-
-// THE FOLLOWING STYLES NEED A PERMANENT HOME
-
-.front .main-container h1 {
-	display: none;
-}
-
-
+@import "node_detail_blocks";

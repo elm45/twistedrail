@@ -113,6 +113,38 @@ Drupal.behaviors.twistedRail = {
 
 
 
+
+// ------------------------------ NODE DETAIL BLOCS -------------------------------
+
+// makes location and hours blocks the same height on location pages
+  var locationHeight = $(".location_section").height();
+  var hoursHeight = $(".hours_section").height();
+    if (locationHeight > hoursHeight) { 
+      $(".hours_section").height(locationHeight)
+    }
+    else { 
+      $(".location_section").height(hoursHeight)
+    };
+
+// makes location and dates blocks the same height on location pages
+  var locationHeight = $(".location_section").height();
+  var dateHeight = $(".date_section").height();
+    if (locationHeight > dateHeight) { 
+      $(".date_section").height(locationHeight)
+    }
+    else { 
+      $(".location_section").height(dateHeight)
+    };
+
+
+
+// $(window).load(function(){
+//   var logoHeight = $('.logo').height();
+//   $('.main-container').css('margin-top', logoHeight + 'px');
+// });
+
+
+
  
 
 

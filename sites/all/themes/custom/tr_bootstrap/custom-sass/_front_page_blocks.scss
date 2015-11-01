@@ -1,54 +1,57 @@
 .front .pane-on-tap  {
-	h2.pane-title {
-		@extend .blueribbon;
-		@media (min-width:425px) and (max-width:550px){
-	    	background-size:75%;
-	    }
-	    @media (min-width:550px) and (max-width:650px){
-	    	background-size:60%;
-	    }
-	    @media (min-width:650px) and (max-width:767px){
-	    	background-size:50%;
-	    }
-	    margin-bottom: -55px;
-	    position: relative;
-	}
-	.pane-content {
-		background: $bgParchment;
-		-webkit-box-shadow:inset 0 0 50px -10px #421618;
-		box-shadow:inset 0 0 50px -10px #421618;
-		border-radius: 4px;
-	}
+  h2.pane-title {
+    @extend .blueribbon;
 
+    margin-bottom: -55px;
+    position: relative;
+
+    @media (min-width:425px) and (max-width:550px){
+      background-size:75%;
+    }
+    @media (min-width:550px) and (max-width:650px){
+      background-size:60%;
+    }
+    @media (min-width:650px) and (max-width:767px){
+      background-size:50%;
+    }
+  }
+
+  .pane-content {
+    background: $bgParchment;
+    -webkit-box-shadow:inset 0 0 50px -10px #421618;
+    box-shadow:inset 0 0 50px -10px #421618;
+    border-radius: 4px;
+  }
+  
 }
 
 .view-on-tap {
-	padding: 15px;
-	text-align:center;
-	.views-row {
-		margin: 15px 0;
-		font-family: $font-head;
-		font-size: $base-font-size;
-	}
-	.view-content {
-	    border: 2px solid $accentA;
-	    border-radius: 4px;
-	    padding-top: 30px;
-	    padding-bottom: 30px;
-	}
+  padding: 15px;
+  text-align:center;
+  .views-row {
+    margin: 15px 0;
+    font-family: $font-head;
+    font-size: $base-font-size;
+  }
+  .view-content {
+      border: 2px solid $accentA;
+      border-radius: 4px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
 
 }
 
 .front .pane-locations {
-	.open-location-title {
-		margin-top: 40px;
-	}
-	.views-row {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	.views-row.open-location {
-		padding-top: 20px;
-	}
+  .open-location-title {
+    margin-top: 40px;
+  }
+  .views-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .views-row.open-location {
+    padding-top: 20px;
+  }
 }
 
